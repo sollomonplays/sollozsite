@@ -1,0 +1,129 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  padding: 30px;
+  color: #333;
+  background-image: url('./img/background.png');
+  background-position:top;
+  background-size:cover;
+}
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  background:linear-gradient(
+      to bottom right,
+      hsl(186, 100%, 45%) 0%,
+      hsla(185.51, 100%, 44.75%, 1) 8.1%,
+      hsla(184.08, 100%, 43.78%, 1) 15.5%,
+      hsla(181.74, 100%, 42.28%, 1) 22.5%,
+      hsla(178.51, 100%, 41.38%, 0.909) 29%,
+      hsla(174.72, 100%, 41.76%, 0.865) 35.3%,
+      hsla(170.61, 100%, 42.18%, 0.817) 41.2%,
+      hsla(166.35, 100%, 42.62%, 0.766) 47.1%,
+      hsla(162.1, 100%, 43.07%, 0.714) 52.9%,
+      hsla(158.01, 100%, 43.51%, 0.663) 58.8%,
+      hsla(154.22, 100%, 43.93%, 0.615) 64.7%,
+      hsla(150.86, 100%, 44.31%, 0.571) 71%,
+      hsla(148.04, 100%, 44.63%, 0.534) 77.5%,
+      hsla(145.88, 100%, 44.88%, 0.505) 84.5%,
+      hsla(144.49, 100%, 45.04%, 0.487) 91.9%,
+      hsla(144, 100%, 45.1%, 0.48) 100%
+    );
+  border-radius: 16px;
+  padding: 20px 30px;
+  box-shadow: 10px 10px 42px -14px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 42px -14px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 42px -14px rgba(0,0,0,0.75);
+}
+/* From Uiverse.io by cssbuttons-io */ 
+button {
+  align-items: center;
+  background-image: linear-gradient(144deg, #00c3ff, #57cf7ffb 50%, #00eeff83);
+  border: 0;
+  border-radius: 10px;
+  box-shadow: rgba(247, 0, 193, 0.459) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: flex;
+  font-size: 15px;
+  justify-content: space-between;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 10px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-right: 5px;
+}
+
+button:active,
+button:hover {
+  outline: 0;
+}
+
+button span {
+  background-color: rgb(5, 6, 45);
+  padding: 2px 15px;
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+  /* transition: 300ms; */
+}
+
+button:hover span {
+  background: none;
+  transition-property: transform;
+  transition-duration: 2s;
+  transition: all 0.7s ease;
+  cursor: pointer
+}
+
+button:active {
+  transform: scale(0.9);
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  margin-bottom: 10px;
+}
+p {
+  margin: 15px 0;
+}
+input {
+  box-sizing: border-box;
+}
+.todo-form {
+  padding-bottom: 1.5rem;
+
+}
+input, select {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd; 
+  border-radius: 3px; 
+  width: 100%;
+}
+.todo-list {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #555;
+}
+.todo {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+
+}
+
