@@ -14,7 +14,7 @@ function App() {
     {
       id: 2,
       text: "Ir para a aula de defesa pessoal",
-      category: "Pessoal",
+      category: "X",
       isCompleted: false,
     },
     {
